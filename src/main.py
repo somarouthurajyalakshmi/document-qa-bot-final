@@ -1,6 +1,6 @@
 import streamlit as st
-from src.query import query_rag_pipeline
-from src.ingest import ingest_documents
+from query import query_rag_pipeline
+from ingest import ingest_documents
 
 st.set_page_config(page_title="Document Q&A Bot", layout="wide")
 
